@@ -25,11 +25,3 @@ div{
     justify-content: center;
     min-height: 10vh;
 }
-
-ul li:hover a {
-  background:blue;
-}
-
-#img a:hover {
-    background: rgb(4, 39, 235);
-}
