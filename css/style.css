@@ -1,0 +1,35 @@
+# Empty CSS file for your own CSS
+div{
+    width: 05px; height: 05px;
+    background-image:blue;
+}
+.col-md-6-title1{
+    margin: 1rem;
+    padding: 1rem;
+    /* IMPORTANTE */
+    text-align: center;
+}
+.col-md-4{
+    background-color: #fafafa;
+}
+
+#img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+#vistas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+ul li:hover a {
+  background:blue;
+}
+
+#img a:hover {
+    background: rgb(4, 39, 235);
+}
