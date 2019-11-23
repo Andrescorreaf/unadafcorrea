@@ -1,5 +1,5 @@
 # Empty CSS file for your own CSS
-div{
+#items{
     width: 05px; height: 05px;
     background-image:blue;
 }
@@ -13,14 +13,27 @@ div{
     background-color: #fafafa;
 }
 
-#img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 10vh;
+#item{
+    position: fixed ;
+    bottom: 2;
+    right: 0;
+    background-color: #EBE9EA;
+    border: 1px solid #D2D2D2;
+    border-radius: 8px 8px 8px 8px;
+    float: right;
+    height: 260px;
+    margin-bottom: 10px;
+    width: 250px; 
+    background-color: #fafafa;
+    
 }
 #vistas{
-    display: flex;
+    position: fixed ;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    border: 1px solid #D2D2D2;
+    border-radius: 8px 8px 8px 8px;
     align-items: center;
     justify-content: center;
     min-height: 10vh;

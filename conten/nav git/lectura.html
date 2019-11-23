@@ -5,40 +5,43 @@
 	
     <title>OVI Diseño de sitios Web</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/style.css" rel="stylesheet">
+	
 
   </head>
-  <body id="home">
+  <body>
 
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-6">
-			<img src="IMG/logo_unad.png">
+			<img src="/IMG/logo_unad.png">
 		</div>
 		<div class="col-md-6-title1">
 			<h3 class="text-center">
-				OVI Diseño de sitios web.
+					Instalación y algunos comandos más utilizados
+					<br> 
+					<img src="/IMG/git-logo-2color.png" width="100" height="50">
 			</h3>
 		</div>
-	</div>
+    </div>
 	<div class="row">
-		<div class="col-md-8-menu">
-			<ul class="nav align-bottom ">
-				<li class="nav-item">
-					<a class="nav-link " id="op1" href="index.html">Inicio</a>
+		<div class="col-md-8">
+			<ul class="nav nav-pills">
+			    <li class="nav-item">
+					<a class="nav-link " id="op1" href="/git.html">Inicio</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " id="op2" href="conten/nav diseño/lectura.html">Lectura</a>
+					<a class="nav-link " id="op2" href="lectura.html">Lectura</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " id="op3" href="conten/nav diseño/multimedia.html">Multimedia</a>
+					<a class="nav-link " id="op3" href="multimedia.html">Multimedia</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " id="op4" href="conten/nav diseño/actividades.html">Actividades</a>
+					<a class="nav-link " id="op4" href="actividades.html">Actividades</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " id="op5" href="conten/nav diseño/autores.html">Autores</a>
+					<a class="nav-link " id="op5" href="autores.html">Autores</a>
 				</li>
                <!-- Aquí empieza opciones de navegacion de la web
 				<li class="nav-item dropdown ml-md-auto">
@@ -58,22 +61,36 @@
 	</div><br>
 	<div class="row">
 		<div class="col-md-8">
-			<h3 class="text-center">
-				Breve introducción al Diseño Web.
-			</h3>
+			<h4>Instalando Git en nuestro pc</h4>
 			<br>
 			<p>
-				Toda página tiene como base el diseño, 
-				por eso la importancia de conocer y estudiar que lo compone 
-				y cómo cada parte de un sitio web está enlazada entre sí
-				para construir un sistema visual, usable y funcional para un usuario. 
-				Por tanto para diseñar un buen sistema no solo se necesita de la técnica, 
-				sino también de la  creatividad, 
-				el análisis, la perseverancia….etc, de quien lo diseña. 
+				Para usar git hay que tenerlo en nuestra pc entonces, lo primero es lo primero: tienes que instalarlo. Puedes obtenerlo de varias maneras; las dos principales son instalarlo desde código fuente, o instalar un paquete existente para tu plataforma.
+
+				A continuación la forma de instalarlo en diferentes sistemas operativos.
 			</p>
-			<p>
-				<a class="btn" href="/conten/nav diseño/lectura.html">View details »</a>
-			</p>
+			<br>
+			<h5>Instalando en Linux</h5>
+				<p>
+					Si quieres instalar Git en Linux a través de un instalador binario, en general puedes hacerlo a través de la herramienta básica de gestión de paquetes que trae tu distribución. Si estás en Fedora, puedes usar yum:
+				</p>
+				<ul>
+					<li>$ yum install git-core</li>
+				</ul>
+				<p>O si estás en una distribución basada en Debian como Ubuntu, prueba con apt-get:</p>
+				<ul>
+					<li>$ apt-get install git</li>
+				</ul>
+			<br>
+			<h5>Instalando en Windows</h5>
+				<p>
+					Instalar Git en Windows es muy fácil. El proyecto msysGit tiene uno de los procesos de instalación más sencillos. Simplemente descarga el archivo exe del instalador desde la página de GitHub, y ejecútalo:				</p>
+				<ul>
+					<li>http://msysgit.github.com/</li>
+				</ul>
+				<p>Una vez instalado, tendrás tanto la versión de línea de comandos (incluido un cliente SSH que nos será útil más adelante) como la interfaz gráfica de usuario estándar.</p>
+				<ul>
+					<li>Nota: en multimedia puedes saber más sobre la configuración de git. </li>
+				</ul>
 		</div>
 		<div class="col-md-4" id="item">
 			<h3 class="text-center text-info">
@@ -82,21 +99,21 @@
 			<br>
 			<div class="row" id="items">
 				<div class="col-md-6" id="img">
-					<a href="git.html"target="_blank"><img  src="IMG/git-logo-2color.png" width="100" height="50">
+					<a href="/index.html"><img  src="/IMG/Imagen diseño.png" width="100" height="60">
 				</div>
 				<br>
 				<div class="col-md-6" id="img" >
-					<a href="github.html"target="_blank"><img src="IMG/1_wotzQboYWAfaj-7bvGNIkQ.png" width="100" height="50">
+					<a href="/github.html"><img src="/IMG/1_wotzQboYWAfaj-7bvGNIkQ.png" width="100" height="50">
 				</div>
 			</div>
 			<br>
 			<div class="row" id="items">
 				<div class="col-md-6" id="img">
-					<a href="htm.html"target="_blank"><img  src="IMG/html5-logo.png" width="100" height="100">
+					<a href="/htm.html"><img  src="/IMG/html5-logo.png" width="100" height="100">
 				</div>
 				<br>
 				<div class="col-md-6" id="img">
-					<a href="css.html" target="_blank"><img src="IMG/logo_CSS3-1.png" width="100" height="100">
+					<a href="/css.html" ><img src="/IMG/logo_CSS3-1.png" width="100" height="100">
 				</div>
 			</div>
 		</div>
@@ -120,13 +137,13 @@
 		</div>
 	</div>
 </div>
-	<script>
+<script>
 		window.onload = function(){
-    		document.getElementById("op1").style.background='lightgray'
+    		document.getElementById("op2").style.background='lightgray'
 	}
 	</script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/scripts.js"></script>
   </body>
 </html>
