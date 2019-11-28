@@ -1,8 +1,13 @@
 # Empty CSS file for your own CSS
 #items{
     width: 05px; height: 05px;
-    background-image:blue;
+    background-color:blue;
 }
+
+.nav{
+    background: rgb(0, 0, 8);
+}
+
 .col-md-6-title1{
     margin: 1rem;
     padding: 1rem;
@@ -37,4 +42,7 @@
     align-items: center;
     justify-content: center;
     min-height: 10vh;
+}
+h5{
+    font-weight: 600;
 }

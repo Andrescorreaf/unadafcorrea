@@ -5,8 +5,9 @@
 	
     <title>OVI Diseño de sitios Web</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/style.css" rel="stylesheet">
+
 
   </head>
   <body>
@@ -14,31 +15,31 @@
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-6">
-			<img src="IMG/logo_unad.png">
+			<img src="/IMG/logo_unad.png">
 		</div>
 		<div class="col-md-6-title1">
 			<h3 class="text-center">
-				OVI Diseño de sitios web.
+				Practica de <img src="/IMG/html5-logo.png" width="100" height="50">
 			</h3>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-8">
 			<ul class="nav nav-pills">
-				<li class="nav-item">
-					<a class="nav-link " href="inicio">Inicio</a>
+			    <li class="nav-item">
+					<a class="nav-link " id="op1" href="/htm.html">Inicio</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="lectura">Lectura</a>
+					<a class="nav-link " id="op2" href="lectura.html">Lectura</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="multimedia">Multimedia</a>
+					<a class="nav-link " id="op3" href="multimedia.html">Multimedia</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="actividades">Actividades</a>
+					<a class="nav-link " id="op4" href="actividades.html">Actividades</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="autores">Autores</a>
+					<a class="nav-link " id="op5" href="/autores.html">Autores</a>
 				</li>
                <!-- Aquí empieza opciones de navegacion de la web
 				<li class="nav-item dropdown ml-md-auto">
@@ -58,45 +59,55 @@
 	</div><br>
 	<div class="row">
 		<div class="col-md-8">
-			<h3 class="text-center">
-				Breve introducción al Diseño Web.
-			</h3>
-			<br>
-			<p>
-				Toda página tiene como base el diseño, 
-				por eso la importancia de conocer y estudiar que lo compone 
-				y cómo cada parte de un sitio web está enlazada entre sí
-				para construir un sistema visual, usable y funcional para un usuario. 
-				Por tanto para diseñar un buen sistema no solo se necesita de la técnica, 
-				sino también de la  creatividad, 
-				el análisis, la perseverancia….etc, de quien lo diseña. 
-			</p>
-			<p>
-				<a class="btn" href="lectura">View details »</a>
-			</p>
+			<h5 class="text-center"> Mi primer archivo html</h5>
+			<h4>Pasos</h4>
+			<ul>
+				<li> un editor con el que vamos a crear el primer código de html, en el siguiente link, encontraremos  los mejores editores gratis y sus pasos para descargarlo.</li>
+			<a href="https://cibertest.com/examen-online/500/git-comandos-utiles"> Link editores de codigo</a>
+			<li> Luego creamos una carpeta en la ubicación que desees. 
+			<li> Luego de esto abrimos la carpeta y dentro de ella creamos un archivo con nombre index.html
+			<li> Luego abrimos con el editor el archivo index.html.
+			<li> Luego de esto vamos a ingresar el siguiente código:				
+			</ul>
+			< !DOCTYPE html> <br>
+			< html lang="en"> <br>
+
+			< meta charset="utf-8"><br>
+			< title>Page Title< /title> <br>
+
+			< body> <br>
+			< h1>This is a Heading< /h1> <br>
+			< p>This is a paragraph.< /p> <br>
+			< p>This is another paragraph.< /p> <br>
+			< /body>
+
+			< /html>
+			<p>Luego guardamos el código ingresado y hacemos clic izquierdo sobre el archivo le damos abrir con firefox o chrome.</p> <br>
+
+			 <h4>Nota:</h4> Lo anterior es solo el principio de un viaje a un excelente sitio web.
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4"id="item">
 			<h3 class="text-center text-info">
 				Items
 			</h3>
 			<br>
 			<div class="row" id="items">
 				<div class="col-md-6" id="img">
-					<img  src="IMG/git-logo-2color.png" width="100" height="50">
+					<a href="/github.html" ><img  src="/IMG/1_wotzQboYWAfaj-7bvGNIkQ.png" width="100" height="50">
 				</div>
 				<br>
 				<div class="col-md-6" id="img" >
-					<img src="IMG/1_wotzQboYWAfaj-7bvGNIkQ.png" width="100" height="50">
+					<a href="/git.html" ><img src="/IMG/git-logo-2color.png" width="100" height="50">
 				</div>
 			</div>
 			<br>
 			<div class="row" id="items">
 				<div class="col-md-6" id="img">
-					<a href=""target="_blank"><img  src="IMG/html5-logo.png" width="100" height="100">
+					<a href="/index.html" ><img  src="/IMG/Imagen diseño.png" width="100" height="80">
 				</div>
 				<br>
 				<div class="col-md-6" id="img">
-					<a href="" target="_blank"><img src="IMG/logo_CSS3-1.png" width="100" height="100">
+					<a href="/css.html"  ><img src="/IMG/logo_CSS3-1.png" width="100" height="100">
 				</div>
 			</div>
 		</div>
@@ -120,9 +131,13 @@
 		</div>
 	</div>
 </div>
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+<script>
+		window.onload = function(){
+    		document.getElementById("op4").style.background='lightgray'
+	}
+	</script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/scripts.js"></script>
   </body>
 </html>
