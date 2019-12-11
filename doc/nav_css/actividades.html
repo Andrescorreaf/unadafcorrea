@@ -5,10 +5,9 @@
 	
     <title>OVI Diseño de sitios Web</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/style.css" rel="stylesheet">
+
 
   </head>
   <body>
@@ -16,11 +15,11 @@
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-6">
-			<img src="../IMG/logo_unad.png">
+			<img src="/IMG/logo_unad.png">
 		</div>
 		<div class="col-md-6-title1">
 			<h3 class="text-center">
-					Autores
+				Practica de <img src="/IMG/logo_CSS3-1.png" width="100" height="50">
 			</h3>
 		</div>
 	</div>
@@ -28,7 +27,7 @@
 		<div class="col-md-8">
 			<ul class="nav nav-pills">
 			    <li class="nav-item">
-					<a class="nav-link " id="op1" href="../index.html">Inicio</a>
+					<a class="nav-link " id="op1" href="/css.html">Inicio</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link " id="op2" href="lectura.html">Lectura</a>
@@ -40,7 +39,7 @@
 					<a class="nav-link " id="op4" href="actividades.html">Actividades</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " id="op5" href="autores.html">Autores</a>
+					<a class="nav-link " id="op5" href="/autores.html">Autores</a>
 				</li>
                <!-- Aquí empieza opciones de navegacion de la web
 				<li class="nav-item dropdown ml-md-auto">
@@ -60,31 +59,48 @@
 	</div><br>
 	<div class="row">
 		<div class="col-md-8">
-			Andres Felipe Corre: Tecnólogo y estudiante de la ingeniería en sistemas, apasionado por los sistemas, aprendiz empírico, inquieto en el mundo de la informática.  E  sus tiempos libre se dedica a leer y practicar el fútbol. 
+			<h5 class="text-center"> Mi primer archivo css</h5>
+			<h4>Pasos</h4>
+			<ul>
+				<li> Abrimos un editor con el que vamos a crear el primer código de css.</li>
+			<a href="https://cibertest.com/examen-online/500/git-comandos-utiles"> Link editores de codigo</a>
+			<li> Creamos un archivo con el nombre style.css 
+			<li> Luego abrimos con el editor el archivo style.css
+			<li> Luego de esto vamos a ingresar el siguiente código:				
+			</ul>
+			body {background-color: orange; font-family:verdana} <br>
+			h1 {color: white;} <br>
 
+			p {font-size: 20px;}<br> <br>
+
+			<p>Luego guardamos el código ingresado y hacemos clic izquierdo sobre el archivo index..html y abrimos con  firefox o chrome.</p> <br>
+
+			 <h4>Nota:</h4> Lo anterior es solo el principio de un viaje a un buen diseño del sitio web. <br>
+			 Es importente tener en cuenta que para que el anterior codigo funcione debe adjuntar la direccion del archivo css en el 
+			 archivo html. 
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4"id="item">
 			<h3 class="text-center text-info">
 				Items
 			</h3>
 			<br>
 			<div class="row" id="items">
 				<div class="col-md-6" id="img">
-					<a href="../git.html"target="_blank"><img  src="../IMG/git-logo-2color.png" width="100" height="50">
+					<a href="/htm.html" ><img  src="/IMG/html5-logo.png" width="100" height="50">
 				</div>
 				<br>
 				<div class="col-md-6" id="img" >
-					<a href="../github.html"target="_blank"><img src="../IMG/1_wotzQboYWAfaj-7bvGNIkQ.png" width="100" height="50">
+					<a href="/github.html" ><img src="/IMG/1_wotzQboYWAfaj-7bvGNIkQ.png" width="100" height="50">
 				</div>
 			</div>
 			<br>
 			<div class="row" id="items">
 				<div class="col-md-6" id="img">
-					<a href="../htm.html"target="_blank"><img  src="../IMG/html5-logo.png" width="100" height="100">
+					<a href="/git.html" ><img  src="/IMG/git-logo-2color.png" width="100" height="80">
 				</div>
 				<br>
 				<div class="col-md-6" id="img">
-					<a href="../css.html" target="_blank"><img src="../IMG/logo_CSS3-1.png" width="100" height="100">
+					<a href="/index.html"  ><img src="/IMG/Imagen diseño.png" width="100" height="100">
 				</div>
 			</div>
 		</div>
@@ -110,7 +126,7 @@
 </div>
 <script>
 		window.onload = function(){
-    		document.getElementById("op5").style.background='lightgray'
+    		document.getElementById("op4").style.background='lightgray'
 	}
 	</script>
     <script src="../js/jquery.min.js"></script>

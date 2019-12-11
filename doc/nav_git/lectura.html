@@ -19,15 +19,17 @@
 		</div>
 		<div class="col-md-6-title1">
 			<h3 class="text-center">
-					Practica en linea con editores de codigo gratis
+					Instalación y algunos comandos más utilizados
+					<br> 
+					<img src="/IMG/git-logo-2color.png" width="100" height="50">
 			</h3>
 		</div>
-	</div>
+    </div>
 	<div class="row">
 		<div class="col-md-8">
 			<ul class="nav nav-pills">
 			    <li class="nav-item">
-					<a class="nav-link " id="op1" href="/index.html">Inicio</a>
+					<a class="nav-link " id="op1" href="/git.html">Inicio</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link " id="op2" href="lectura.html">Lectura</a>
@@ -39,7 +41,7 @@
 					<a class="nav-link " id="op4" href="actividades.html">Actividades</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " id="op5" href="autores.html">Autores</a>
+					<a class="nav-link " id="op5" href="/autores.html">Autores</a>
 				</li>
                <!-- Aquí empieza opciones de navegacion de la web
 				<li class="nav-item dropdown ml-md-auto">
@@ -59,9 +61,67 @@
 	</div><br>
 	<div class="row">
 		<div class="col-md-8">
-				<iframe src="https://giphy.com/embed/lovJUCfdcfhgcXgnPG" width="780" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-				<p><a href="https://htmled.it/or/">Pactica html Aquí ó </a></p>
-				<p><a href="https://htmled.it/or/">Aquí  </a></p>
+			<h4>Instalando Git en nuestro pc</h4>
+			<br>
+			<p>
+				Para usar git hay que tenerlo en nuestra pc entonces, lo primero es lo primero: tienes que instalarlo. Puedes obtenerlo de varias maneras; las dos principales son instalarlo desde código fuente, o instalar un paquete existente para tu plataforma.
+
+				A continuación la forma de instalarlo en diferentes sistemas operativos.
+			</p>
+			<br>
+			<h5>Instalando en Linux</h5>
+				<p>
+					Si quieres instalar Git en Linux a través de un instalador binario, en general puedes hacerlo a través de la herramienta básica de gestión de paquetes que trae tu distribución. Si estás en Fedora, puedes usar yum:
+				</p>
+				<ul>
+					<li>$ yum install git-core</li>
+				</ul>
+				<p>O si estás en una distribución basada en Debian como Ubuntu, prueba con apt-get:</p>
+				<ul>
+					<li>$ apt-get install git</li>
+				</ul>
+			<br>
+			<h5>Instalando en Windows</h5>
+				<p>
+					Instalar Git en Windows es muy fácil. El proyecto msysGit tiene uno de los procesos de instalación más sencillos. Simplemente descarga el archivo exe del instalador desde la página de GitHub, y ejecútalo:				</p>
+				<ul>
+					<li>http://msysgit.github.com/</li>
+				</ul>
+				<p>Una vez instalado, tendrás tanto la versión de línea de comandos (incluido un cliente SSH que nos será útil más adelante) como la interfaz gráfica de usuario estándar.</p>
+				<ul>
+					<li>Nota: en multimedia puedes saber más sobre la configuración de git. </li>
+				</ul>
+			<br>
+			<h5>Comandos más utilizados.</h5>
+				<p>Iniciar un repositorio vacío en una carpeta específica.</p>
+				<ul>
+					<li>git init</li>
+				</ul>
+				<p>Añadir un archivo específico.</p>
+				<ul>
+					<li>git add “nombre_de_archivo” </li>
+				</ul>
+				<p>Añadir todos los archivos del directorio</p>
+				<ul>
+					<li>git add . </li>
+				</ul>
+				<p>Confirmar los cambios realizados. El “mensaje” generalmente se usa para asociar al commit una breve descripción de los cambios realizados.
+				<ul>
+				<li>git commit –am “mensaje”</li>
+				</ul>
+				<p> Revertir el commit identificado por "hash_commit"
+				<ul>
+				<li>git revert “hash_commit"</li>
+				</ul>
+				<p> Subir la rama(branch) “nombre_rama” al servidor remoto.
+				<ul>
+				<li>git push origin “nombre rama”</li>
+				</ul>
+				<p> Mostrar el estado actual de la rama(branch), como los cambios que hay sin hacer commit.
+				<ul>
+				<li>git status</li>
+				</ul>
+
 		</div>
 		<div class="col-md-4" id="item">
 			<h3 class="text-center text-info">
@@ -70,21 +130,21 @@
 			<br>
 			<div class="row" id="items">
 				<div class="col-md-6" id="img">
-					<a href="/git.html"target="_blank"><img  src="/IMG/git-logo-2color.png" width="100" height="50">
+					<a href="/index.html"><img  src="/IMG/Imagen diseño.png" width="100" height="60">
 				</div>
 				<br>
 				<div class="col-md-6" id="img" >
-					<a href="/github.html"target="_blank"><img src="/IMG/1_wotzQboYWAfaj-7bvGNIkQ.png" width="100" height="50">
+					<a href="/github.html"><img src="/IMG/1_wotzQboYWAfaj-7bvGNIkQ.png" width="100" height="50">
 				</div>
 			</div>
 			<br>
 			<div class="row" id="items">
 				<div class="col-md-6" id="img">
-					<a href="/htm.html"target="_blank"><img  src="/IMG/html5-logo.png" width="100" height="100">
+					<a href="/htm.html"><img  src="/IMG/html5-logo.png" width="100" height="100">
 				</div>
 				<br>
 				<div class="col-md-6" id="img">
-					<a href="/css.html" target="_blank"><img src="/IMG/logo_CSS3-1.png" width="100" height="100">
+					<a href="/css.html" ><img src="/IMG/logo_CSS3-1.png" width="100" height="100">
 				</div>
 			</div>
 		</div>
@@ -110,7 +170,7 @@
 </div>
 <script>
 		window.onload = function(){
-    		document.getElementById("op4").style.background='lightgray'
+    		document.getElementById("op2").style.background='lightgray'
 	}
 	</script>
     <script src="/js/jquery.min.js"></script>

@@ -5,8 +5,8 @@
 	
     <title>OVI Diseño de sitios Web</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 
   </head>
   <body>
@@ -18,7 +18,7 @@
 		</div>
 		<div class="col-md-6-title1">
 			<h3 class="text-center">
-				OVI Diseño de sitios web.
+				Breve introducción a <img src="/IMG/logo_CSS3-1.png" width="100" height="50">				
 			</h3>
 		</div>
 	</div>
@@ -26,19 +26,19 @@
 		<div class="col-md-8">
 			<ul class="nav nav-pills">
 				<li class="nav-item">
-					<a class="nav-link " href="../index.html">Inicio</a>
+					<a class="nav-link " id="op1" href="css.html">Inicio</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="lectura">Lectura</a>
+					<a class="nav-link " id="op2" href="/doc/nav_css/lectura.html">Lectura</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="multimedia">Multimedia</a>
+					<a class="nav-link " id="op3" href="/doc/nav_css/multimedia.html">Multimedia</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="actividades">Actividades</a>
+					<a class="nav-link " id="op4" href="/doc/nav_css/actividades.html">Actividades</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link " href="autores">Autores</a>
+					<a class="nav-link " id="op5" href="/autores.html">Autores</a>
 				</li>
                <!-- Aquí empieza opciones de navegacion de la web
 				<li class="nav-item dropdown ml-md-auto">
@@ -59,44 +59,50 @@
 	<div class="row">
 		<div class="col-md-8">
 			<h3 class="text-center">
-				Breve introducción al Diseño Web.
+				Qué es CSS?
 			</h3>
 			<br>
 			<p>
-				Toda página tiene como base el diseño, 
-				por eso la importancia de conocer y estudiar que lo compone 
-				y cómo cada parte de un sitio web está enlazada entre sí
-				para construir un sistema visual, usable y funcional para un usuario. 
-				Por tanto para diseñar un buen sistema no solo se necesita de la técnica, 
-				sino también de la  creatividad, 
-				el análisis, la perseverancia….etc, de quien lo diseña. 
+				CSS (en inglés Cascading Style Sheets) es lo que se denomina lenguaje de hojas de estilo en cascada y se usa para estilizar elementos escritos en un lenguaje de marcado como HTML. 
+				<br> <br>
+				CSS separa el contenido de la representación visual del sitio.
+				<br> <br>
+				CSS fue desarrollado por W3C (World Wide Web Consortium) en 1996 por una razón muy sencilla. HTML no fue diseñado para tener etiquetas que ayuden a formatear la página. Está hecho solo para escribir el marcado para el sitio.
+				
+				Se incluyeron etiquetas como < font> en HTML versión 3.2, y esto les causó muchos problemas a los desarrolladores. Dado que los sitios web tenían diferentes fuentes, fondos de colores y estilos, el proceso de reescribir el código fue largo, doloroso y costoso. <br>
+				<br>
+				Por lo tanto, CSS fue creado por W3C para resolver este problema.
+				
+				La relación entre HTML y CSS es muy fuerte. Dado que HTML es un lenguaje de marcado (es decir, constituye la base de un sitio) y CSS enfatiza el estilo (toda la parte estética de un sitio web), van de la mano.
+				<br> <br>	
+				CSS no es técnicamente una necesidad, pero no querrás tener un sitio que solo tenga HTML, ya que se vería completamente desnudo.
 			</p>
 			<p>
-				<a class="btn" href="lectura">View details »</a>
+				<a class="btn" href="/doc/nav_css/lectura.html">View details »</a>
 			</p>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4" id="item">
 			<h3 class="text-center text-info">
 				Items
 			</h3>
 			<br>
 			<div class="row" id="items">
 				<div class="col-md-6" id="img">
-					<a href="../paggit/git.html"target="_blank"><img  src="IMG/git-logo-2color.png" width="100" height="50">
+					<a href="/htm.html"><img  src="IMG/html5-logo.png" width="100" height="60">
 				</div>
 				<br>
 				<div class="col-md-6" id="img" >
-					<a href="../paggithub/github.html"target="_blank"><img src="IMG/1_wotzQboYWAfaj-7bvGNIkQ.png" width="100" height="50">
+					<a href="/github.html"><img src="IMG/1_wotzQboYWAfaj-7bvGNIkQ.png" width="100" height="50">
 				</div>
 			</div>
 			<br>
 			<div class="row" id="items">
 				<div class="col-md-6" id="img">
-					<a href="../paghtml/htm.html"target="_blank"><img  src="IMG/html5-logo.png" width="100" height="100">
+					<a href="/git.html"><img  src="IMG/git-logo-2color.png" width="100" height="90">
 				</div>
 				<br>
 				<div class="col-md-6" id="img">
-					<a href="../index.html" target="_blank"><img src="IMG/home.jpg" width="100" height="100">
+					<a href="/index.html" ><img src="IMG/Imagen diseño.png" width="100" height="100">
 				</div>
 			</div>
 		</div>
@@ -120,9 +126,13 @@
 		</div>
 	</div>
 </div>
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+	<script>
+		window.onload = function(){
+    		document.getElementById("op1").style.background='lightgray'
+	}
+	</script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/scripts.js"></script>
   </body>
 </html>
